@@ -58,7 +58,7 @@ function getRandomInt(min, max) {
 }
 
 function getRandomAnswer() {
-	let randomTypeNum = getRandomInt(0, 2);
+	let randomTypeNum = getRandomInt(0, 3);
 	let randomTypeArr = eightBall[randomTypeNum];
 	let randomAnswerNum = getRandomInt(0, randomTypeArr.length);
 	let randomAnswer = randomTypeArr[randomAnswerNum];
